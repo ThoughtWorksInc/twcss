@@ -1,6 +1,6 @@
 #CSS Coding Guidelines
 
-Best practices for writing CSS and Sass. 
+Best practices for writing CSS and Sass in ThoughtWorks.
 
 Bits blatantly stolen from or inspired by better guides: [AirBnb](https://github.com/airbnb/css), [Github](http://primercss.io/guidelines/), [Google](https://google.github.io/styleguide/htmlcssguide.xml) and ThoughtWork's own [website styleguide](https://showcase.thoughtworks.com/style-guide).
 
