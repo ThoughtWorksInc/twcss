@@ -2,7 +2,7 @@
 
 Best practices for writing CSS and Sass in ThoughtWorks.
 
-Bits blatantly stolen from or inspired by better guides: [AirBnb](https://github.com/airbnb/css), [Github](http://primercss.io/guidelines/), [Google](https://google.github.io/styleguide/htmlcssguide.xml) and ThoughtWork's own [website styleguide](https://showcase.thoughtworks.com/style-guide).
+Bits stolen from or inspired by better guides: [AirBnb](https://github.com/airbnb/css), [Github](http://primercss.io/guidelines/), [Google](https://google.github.io/styleguide/htmlcssguide.xml) and ThoughtWork's own [website styleguide](https://showcase.thoughtworks.com/style-guide).
 
 # CSS Formatting
 
@@ -113,7 +113,7 @@ Avoid binding to the same class in both your CSS and JavaScript to avoid breakin
 Recommend creating JavaScript-specific classes to bind to, prefixed with .js-:
 
 ```
-<button class="btn btn-primary js-request-to-book">Request to Book</button>
+<button class="btn js-request-to-book">Request to Book</button>
 ```
 
 ## Comments
