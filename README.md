@@ -126,3 +126,29 @@ Recommend creating JavaScript-specific classes to bind to, prefixed with .js-:
 ## Methodologies
 
 Besides BEM for naming, ThoughtWorks recommends following [OOCSS](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/), [SMACSS](https://smacss.com/) and [Atomic Design](http://bradfrost.com/blog/post/atomic-web-design/) patterns. It's a good idea to read up on these methodologies and strategies if you want to write maintainable, scalable code. 
+
+### OOCSS
+Main philosophy:
+* Separate structure and skin (button/box/widget and its color)
+* Separate container and content (avoid location-dependent styles like `#sidebar h3`)
+
+### Atomic Design
+Main philosophy:
+Break down web design into five distinct levels:
+* Atoms (a single HTML element like `input`)
+* Molecules (a set of HTML elements like `form>input[name="search"][type="text"]`)
+* Organisms (set of _Molecules_)
+* Templates (wireframe/layout containing all the _Organisms_)
+* Pages (all of above combined)
+
+### SMACSS
+Main philosophy:
+Break down CSS rules into five categories:
+* Base (default/resets)
+* Layout
+* Module (reusable component)
+* State (`is-active`, `is-hidden`, `is-expanded`)
+* Theme (more applicable for larger sites with shared elements that look different throughout)
+
+
+  
